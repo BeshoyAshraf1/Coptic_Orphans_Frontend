@@ -18,7 +18,7 @@ Responsive Design 📱 (Mobile-friendly interface)
 
 📂 Project Setup
 
-git clone https://github.com/your-repo/job-portal-frontend.git
+git clone https://github.com/BeshoyAshraf1/Coptic_Orphans_Frontend.git
 
 cd job-portal-frontend
 
