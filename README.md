@@ -20,7 +20,7 @@ Responsive Design 📱 (Mobile-friendly interface)
 
 git clone https://github.com/BeshoyAshraf1/Coptic_Orphans_Frontend.git
 
-cd job-portal-frontend
+cd Coptic_Orphans_Frontend
 
 npm install
 
