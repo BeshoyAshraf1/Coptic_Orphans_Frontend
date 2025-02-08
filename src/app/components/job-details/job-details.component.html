@@ -1,0 +1,26 @@
+<section class="job-details" *ngIf="job">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title class="job-title">{{ job.title }}</mat-card-title>
+        <mat-card-subtitle class="company-location">
+          {{ job.company }} • {{ job.location }}
+        </mat-card-subtitle>
+      </mat-card-header>
+  
+
+        <div class="details-section">
+          <h3 class="section-heading">Job Description</h3>
+          <p class="description">{{ job.description }}</p>
+        </div>
+  
+        <div class="apply-section">
+          <button mat-flat-button 
+                  color="primary" 
+                  class="apply-btn"
+                  [routerLink]="['/apply', job.id]">
+            Apply Now
+          </button>
+        </div>
+
+    </mat-card>
+  </section>

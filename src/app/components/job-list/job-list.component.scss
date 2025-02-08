@@ -1,0 +1,62 @@
+.job-list {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+    .section-title {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #2c3e50;
+      font-weight: 500;
+    }
+  
+    .job-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+  
+    .job-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+  
+      .job-title {
+        font-size: 1.2rem;
+        font-weight: 500;
+      }
+  
+      .company {
+        color: #7f8c8d;
+        font-size: 0.9rem;
+      }
+  
+      .location {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #34495e;
+        margin-top: 1rem;
+  
+        mat-icon {
+          font-size: 1.2rem;
+          width: auto;
+          height: auto;
+        }
+      }
+  
+      .view-details-btn {
+        width: 100%;
+        margin-top: 1rem;
+      }
+    }
+  
+    .custom-paginator {
+      background: transparent;
+      margin-top: 2rem;
+    }
+  }

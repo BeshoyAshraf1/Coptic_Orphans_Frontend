@@ -1,0 +1,60 @@
+.apply-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  
+    mat-card {
+      padding: 2rem;
+  
+      mat-card-header {
+        margin-bottom: 2rem;
+      }
+  
+      .form-field {
+        margin-bottom: 1.5rem;
+  
+        .file-upload {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+  
+          input[type="file"] {
+            display: none;
+          }
+  
+          button {
+            white-space: nowrap;
+          }
+  
+          .file-name {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+          }
+        }
+      }
+  
+      .error-message {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #e74c3c;
+        margin: 1rem 0;
+        padding: 1rem;
+        background-color: #f8d7da;
+        border-radius: 4px;
+  
+        mat-icon {
+          font-size: 1.2rem;
+        }
+      }
+  
+      .form-actions {
+        text-align: right;
+        margin-top: 2rem;
+  
+        button {
+          padding: 0.5rem 2rem;
+        }
+      }
+    }
+  }
